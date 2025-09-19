@@ -1,0 +1,108 @@
+@import './ShinyText.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nura Font Faces */
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-Normal.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nura';
+  src: url('../assets/fonts/Nura-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Global styles */
+body {
+  font-family: "Nura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #4b5563; /* gray-700 */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #7c3aed; /* brand purple */
+  margin: 0;
+}
+
+/* Hero section uses default font instead of Nura */
+.hero-section, .hero-section * {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hide scrollbar for horizontal scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

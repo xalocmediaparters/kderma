@@ -1,0 +1,478 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]: Exclusive Offers Available Now!
+    - generic [ref=e7]:
+      - link "Get App" [ref=e8] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e9] [cursor=pointer]
+        - generic [ref=e11] [cursor=pointer]: Get App
+      - link "Store & Events" [ref=e12] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e13] [cursor=pointer]
+        - generic [ref=e16] [cursor=pointer]: Store & Events
+      - link "Gift Card" [ref=e17] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e18] [cursor=pointer]
+        - generic [ref=e22] [cursor=pointer]: Gift Card
+      - link "Help" [ref=e23] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e24] [cursor=pointer]
+        - generic [ref=e27] [cursor=pointer]: Help
+  - navigation [ref=e28]:
+    - generic [ref=e30]:
+      - img "KDerma Logo" [ref=e32]
+      - generic [ref=e33]:
+        - link "Home" [ref=e34] [cursor=pointer]:
+          - /url: /
+        - link "Products" [ref=e35] [cursor=pointer]:
+          - /url: /products
+        - link "Brands" [ref=e36] [cursor=pointer]:
+          - /url: /brands
+        - link "About" [ref=e37] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - textbox "Search products..." [ref=e41]
+          - img [ref=e42]
+        - button "Sign In" [ref=e45] [cursor=pointer]
+      - generic [ref=e46]:
+        - button [ref=e47] [cursor=pointer]:
+          - img [ref=e48] [cursor=pointer]
+        - button [ref=e52] [cursor=pointer]:
+          - img [ref=e53] [cursor=pointer]
+  - navigation [ref=e56]:
+    - generic [ref=e58]:
+      - link "Makeup" [ref=e59] [cursor=pointer]:
+        - /url: /makeup
+      - link "Skin" [ref=e60] [cursor=pointer]:
+        - /url: /skin
+      - link "Hair" [ref=e61] [cursor=pointer]:
+        - /url: /hair
+      - link "Appliances" [ref=e62] [cursor=pointer]:
+        - /url: /appliances
+      - link "Bath & Body" [ref=e63] [cursor=pointer]:
+        - /url: /bath-body
+      - link "Natural" [ref=e64] [cursor=pointer]:
+        - /url: /natural
+      - link "Mom & Baby" [ref=e65] [cursor=pointer]:
+        - /url: /mom-baby
+      - link "Health & Wellness" [ref=e66] [cursor=pointer]:
+        - /url: /health-wellness
+      - link "Men" [ref=e67] [cursor=pointer]:
+        - /url: /men
+      - link "Fragrance" [ref=e68] [cursor=pointer]:
+        - /url: /fragrance
+      - link "Lingerie & Accessories" [ref=e69] [cursor=pointer]:
+        - /url: /lingerie-accessories
+      - link "Offers" [ref=e70] [cursor=pointer]:
+        - /url: /offers
+  - generic [ref=e71]:
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - heading "Glow That Lasts All Day" [level=1] [ref=e82]
+              - paragraph [ref=e83]: Discover the power of premium Korean skincare for radiant, healthy skin.
+            - button "Shop Skincare" [ref=e85] [cursor=pointer]
+          - img "Glow That Lasts All Day - KDerma" [ref=e89]
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - heading "Beauty in Every Shade" [level=1] [ref=e98]
+            - paragraph [ref=e99]: From natural tones to bold colors—find your perfect K-Beauty look.
+          - button "Explore Makeup" [ref=e101] [cursor=pointer]
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - heading "Indulge in Luxury Rituals" [level=1] [ref=e114]
+              - paragraph [ref=e115]: Reimagine skincare as self-care with masks, serums, and soothing treatments.
+            - button "Treat Yourself" [ref=e117] [cursor=pointer]
+          - img "Indulge in Luxury Rituals - KDerma" [ref=e121]
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - heading "Curated for You, Fresh from Korea" [level=1] [ref=e130]
+              - paragraph [ref=e131]: Be the first to shop our new arrivals & exclusive collections.
+            - button "Shop New Arrivals" [ref=e133] [cursor=pointer]
+          - img "Curated for You, Fresh from Korea - KDerma" [ref=e137]
+      - button "Previous slide" [ref=e138] [cursor=pointer]:
+        - img [ref=e139] [cursor=pointer]
+      - button "Next slide" [ref=e141] [cursor=pointer]:
+        - img [ref=e142] [cursor=pointer]
+      - generic [ref=e144]:
+        - button "Go to slide 1" [ref=e145] [cursor=pointer]
+        - button "Go to slide 2" [ref=e146] [cursor=pointer]
+        - button "Go to slide 3" [ref=e147] [cursor=pointer]
+        - button "Go to slide 4" [ref=e148] [cursor=pointer]
+      - generic [ref=e149]: 02 / 04
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - heading "This Week's K-Beauty Obsessions" [level=2] [ref=e153]
+        - paragraph [ref=e154]: Discover the cult-favorites everyone's talking about.
+      - generic [ref=e156]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - img "COSRX Advanced Snail 96 Mucin Power Essence" [ref=e160]
+            - generic [ref=e161]: 17% OFF
+            - button "Add to wishlist" [ref=e162] [cursor=pointer]:
+              - img [ref=e163] [cursor=pointer]
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - img [ref=e168]
+                - img [ref=e170]
+                - img [ref=e172]
+                - img [ref=e174]
+                - img [ref=e176]
+              - generic [ref=e178]: (1234)
+            - heading "COSRX Advanced Snail 96 Mucin Power Essence" [level=3] [ref=e179]
+            - paragraph [ref=e180]: COSRX
+            - generic [ref=e181]:
+              - generic [ref=e182]: ₹2,499
+              - generic [ref=e183]: ₹2,999
+            - button "Not Available" [disabled]
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img "Beauty of Joseon Glow Replenishing Rice Milk" [ref=e187]
+            - generic [ref=e188]: 17% OFF
+            - button "Add to wishlist" [ref=e189] [cursor=pointer]:
+              - img [ref=e190] [cursor=pointer]
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - img [ref=e195]
+                - img [ref=e197]
+                - img [ref=e199]
+                - img [ref=e201]
+                - img [ref=e203]
+              - generic [ref=e205]: (856)
+            - heading "Beauty of Joseon Glow Replenishing Rice Milk" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Beauty of Joseon
+            - generic [ref=e208]:
+              - generic [ref=e209]: ₹1,899
+              - generic [ref=e210]: ₹2,299
+            - button "Not Available" [disabled]
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - img "Innisfree Green Tea Seed Serum" [ref=e214]
+            - button "Add to wishlist" [ref=e215] [cursor=pointer]:
+              - img [ref=e216] [cursor=pointer]
+          - generic [ref=e218]:
+            - generic [ref=e219]:
+              - generic [ref=e220]:
+                - img [ref=e221]
+                - img [ref=e223]
+                - img [ref=e225]
+                - img [ref=e227]
+                - img [ref=e229]
+              - generic [ref=e231]: (642)
+            - heading "Innisfree Green Tea Seed Serum" [level=3] [ref=e232]
+            - paragraph [ref=e233]: Innisfree
+            - generic [ref=e235]: ₹3,199
+            - button "Not Available" [disabled]
+        - generic [ref=e237]:
+          - generic [ref=e238]:
+            - img "Laneige Water Sleeping Mask" [ref=e239]
+            - generic [ref=e240]: 15% OFF
+            - button "Add to wishlist" [ref=e241] [cursor=pointer]:
+              - img [ref=e242] [cursor=pointer]
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - generic [ref=e246]:
+                - img [ref=e247]
+                - img [ref=e249]
+                - img [ref=e251]
+                - img [ref=e253]
+                - img [ref=e255]
+              - generic [ref=e257]: (1567)
+            - heading "Laneige Water Sleeping Mask" [level=3] [ref=e258]
+            - paragraph [ref=e259]: Laneige
+            - generic [ref=e260]:
+              - generic [ref=e261]: ₹2,799
+              - generic [ref=e262]: ₹3,299
+            - button "Not Available" [disabled]
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - img "The Ordinary Hyaluronic Acid 2% + B5" [ref=e266]
+            - button "Add to wishlist" [ref=e267] [cursor=pointer]:
+              - img [ref=e268] [cursor=pointer]
+            - generic [ref=e271]: Out of Stock
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - img [ref=e275]
+                - img [ref=e277]
+                - img [ref=e279]
+                - img [ref=e281]
+                - img [ref=e283]
+              - generic [ref=e285]: (923)
+            - heading "The Ordinary Hyaluronic Acid 2% + B5" [level=3] [ref=e286]
+            - paragraph [ref=e287]: The Ordinary
+            - generic [ref=e289]: ₹1,599
+            - button "Out of Stock" [disabled]
+        - generic [ref=e291]:
+          - generic [ref=e292]:
+            - img "Etude House SoonJung pH 6.5 Whip Cleanser" [ref=e293]
+            - generic [ref=e294]: 19% OFF
+            - button "Add to wishlist" [ref=e295] [cursor=pointer]:
+              - img [ref=e296] [cursor=pointer]
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - img [ref=e301]
+                - img [ref=e303]
+                - img [ref=e305]
+                - img [ref=e307]
+                - img [ref=e309]
+              - generic [ref=e311]: (445)
+            - heading "Etude House SoonJung pH 6.5 Whip Cleanser" [level=3] [ref=e312]
+            - paragraph [ref=e313]: Etude House
+            - generic [ref=e314]:
+              - generic [ref=e315]: ₹1,299
+              - generic [ref=e316]: ₹1,599
+            - button "Not Available" [disabled]
+    - generic [ref=e318]:
+      - generic [ref=e319]:
+        - heading "Say Hello to Radiance" [level=2] [ref=e320]
+        - paragraph [ref=e321]: Indulge in our curated mix of new launches and cult favorites.
+      - generic [ref=e323]:
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - img "MISSHA Time Revolution Night Repair Ampoule" [ref=e327]
+            - generic [ref=e328]: 14% OFF
+            - button "Add to wishlist" [ref=e329] [cursor=pointer]:
+              - img [ref=e330] [cursor=pointer]
+          - generic [ref=e332]:
+            - generic [ref=e333]:
+              - generic [ref=e334]:
+                - img [ref=e335]
+                - img [ref=e337]
+                - img [ref=e339]
+                - img [ref=e341]
+                - img [ref=e343]
+              - generic [ref=e345]: (782)
+            - heading "MISSHA Time Revolution Night Repair Ampoule" [level=3] [ref=e346]
+            - paragraph [ref=e347]: MISSHA
+            - generic [ref=e348]:
+              - generic [ref=e349]: ₹4,299
+              - generic [ref=e350]: ₹4,999
+            - button "Not Available" [disabled]
+        - generic [ref=e352]:
+          - generic [ref=e353]:
+            - img "Dr. Jart+ Ceramidin Cream" [ref=e354]
+            - button "Add to wishlist" [ref=e355] [cursor=pointer]:
+              - img [ref=e356] [cursor=pointer]
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - generic [ref=e360]:
+                - img [ref=e361]
+                - img [ref=e363]
+                - img [ref=e365]
+                - img [ref=e367]
+                - img [ref=e369]
+              - generic [ref=e371]: (623)
+            - heading "Dr. Jart+ Ceramidin Cream" [level=3] [ref=e372]
+            - paragraph [ref=e373]: Dr. Jart+
+            - generic [ref=e375]: ₹3,899
+            - button "Not Available" [disabled]
+        - generic [ref=e377]:
+          - generic [ref=e378]:
+            - img "Some By Mi Red Tea Tree Spot Treatment" [ref=e379]
+            - generic [ref=e380]: 18% OFF
+            - button "Add to wishlist" [ref=e381] [cursor=pointer]:
+              - img [ref=e382] [cursor=pointer]
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - generic [ref=e386]:
+                - img [ref=e387]
+                - img [ref=e389]
+                - img [ref=e391]
+                - img [ref=e393]
+                - img [ref=e395]
+              - generic [ref=e397]: (891)
+            - heading "Some By Mi Red Tea Tree Spot Treatment" [level=3] [ref=e398]
+            - paragraph [ref=e399]: Some By Mi
+            - generic [ref=e400]:
+              - generic [ref=e401]: ₹1,799
+              - generic [ref=e402]: ₹2,199
+            - button "Not Available" [disabled]
+        - generic [ref=e404]:
+          - generic [ref=e405]:
+            - img "Klairs Freshly Juiced Vitamin Drop" [ref=e406]
+            - generic [ref=e407]: 15% OFF
+            - button "Add to wishlist" [ref=e408] [cursor=pointer]:
+              - img [ref=e409] [cursor=pointer]
+          - generic [ref=e411]:
+            - generic [ref=e412]:
+              - generic [ref=e413]:
+                - img [ref=e414]
+                - img [ref=e416]
+                - img [ref=e418]
+                - img [ref=e420]
+                - img [ref=e422]
+              - generic [ref=e424]: (1045)
+            - heading "Klairs Freshly Juiced Vitamin Drop" [level=3] [ref=e425]
+            - paragraph [ref=e426]: Klairs
+            - generic [ref=e427]:
+              - generic [ref=e428]: ₹2,899
+              - generic [ref=e429]: ₹3,399
+            - button "Not Available" [disabled]
+        - generic [ref=e431]:
+          - generic [ref=e432]:
+            - img "Banila Co Clean It Zero Cleansing Balm" [ref=e433]
+            - generic [ref=e434]: 15% OFF
+            - button "Add to wishlist" [ref=e435] [cursor=pointer]:
+              - img [ref=e436] [cursor=pointer]
+          - generic [ref=e438]:
+            - generic [ref=e439]:
+              - generic [ref=e440]:
+                - img [ref=e441]
+                - img [ref=e443]
+                - img [ref=e445]
+                - img [ref=e447]
+                - img [ref=e449]
+              - generic [ref=e451]: (1234)
+            - heading "Banila Co Clean It Zero Cleansing Balm" [level=3] [ref=e452]
+            - paragraph [ref=e453]: Banila Co
+            - generic [ref=e454]:
+              - generic [ref=e455]: ₹2,299
+              - generic [ref=e456]: ₹2,699
+            - button "Not Available" [disabled]
+        - generic [ref=e458]:
+          - generic [ref=e459]:
+            - img "Purito Centella Unscented Serum" [ref=e460]
+            - button "Add to wishlist" [ref=e461] [cursor=pointer]:
+              - img [ref=e462] [cursor=pointer]
+            - generic [ref=e465]: Out of Stock
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - img [ref=e469]
+                - img [ref=e471]
+                - img [ref=e473]
+                - img [ref=e475]
+                - img [ref=e477]
+              - generic [ref=e479]: (567)
+            - heading "Purito Centella Unscented Serum" [level=3] [ref=e480]
+            - paragraph [ref=e481]: Purito
+            - generic [ref=e483]: ₹1,999
+            - button "Out of Stock" [disabled]
+    - generic [ref=e485]:
+      - heading "K-Beauty in Motion" [level=2] [ref=e487]
+      - generic [ref=e489]:
+        - button "Previous video" [ref=e490] [cursor=pointer]:
+          - img [ref=e491] [cursor=pointer]
+        - button "Next video" [ref=e493] [cursor=pointer]:
+          - img [ref=e494] [cursor=pointer]
+        - generic [ref=e515] [cursor=pointer]:
+          - img [ref=e520] [cursor=pointer]
+          - heading "K-Beauty Tutorial 5" [level=3] [ref=e523] [cursor=pointer]
+        - generic [ref=e539]:
+          - button "Go to video 1" [ref=e540] [cursor=pointer]
+          - button "Go to video 2" [ref=e541] [cursor=pointer]
+          - button "Go to video 3" [ref=e542] [cursor=pointer]
+          - button "Go to video 4" [ref=e543] [cursor=pointer]
+          - button "Go to video 5" [ref=e544] [cursor=pointer]
+          - button "Go to video 6" [ref=e545] [cursor=pointer]
+          - button "Go to video 7" [ref=e546] [cursor=pointer]
+          - button "Go to video 8" [ref=e547] [cursor=pointer]
+  - contentinfo [ref=e548]:
+    - generic [ref=e549]:
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - heading "KDerma" [level=3] [ref=e552]
+          - paragraph [ref=e553]: Discover the secrets of K-beauty with our carefully selected collection of premium Korean skincare and cosmetics
+          - generic [ref=e554]:
+            - generic [ref=e555]:
+              - img [ref=e556]
+              - generic [ref=e558]: +91 1234567890
+            - generic [ref=e559]:
+              - img [ref=e560]
+              - generic [ref=e563]: support@kderma.com
+            - generic [ref=e564]:
+              - img [ref=e565]
+              - generic [ref=e568]:
+                - text: 123 Beauty Street,
+                - text: Mumbai, Maharashtra 400001
+          - generic [ref=e569]:
+            - link "Facebook" [ref=e570] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e571] [cursor=pointer]
+            - link "Instagram" [ref=e573] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e574] [cursor=pointer]
+            - link "Twitter" [ref=e577] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e578] [cursor=pointer]
+            - link "YouTube" [ref=e580] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e581] [cursor=pointer]
+        - generic [ref=e584]:
+          - heading "Quick Links" [level=4] [ref=e585]
+          - list [ref=e586]:
+            - listitem [ref=e587]:
+              - link "About Us" [ref=e588] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e589]:
+              - link "Contact" [ref=e590] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e591]:
+              - link "Shipping Info" [ref=e592] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e593]:
+              - link "Returns & Exchanges" [ref=e594] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e595]:
+              - link "Size Guide" [ref=e596] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e597]:
+              - link "Track Order" [ref=e598] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e599]:
+          - heading "Shop Categories" [level=4] [ref=e600]
+          - list [ref=e601]:
+            - listitem [ref=e602]:
+              - link "Makeup" [ref=e603] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e604]:
+              - link "Skin" [ref=e605] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e606]:
+              - link "Hair" [ref=e607] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e608]:
+              - link "Appliances" [ref=e609] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e610]:
+              - link "Bath & Body" [ref=e611] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e612]:
+              - link "Natural" [ref=e613] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e614]:
+          - heading "Stay Updated" [level=4] [ref=e615]
+          - paragraph [ref=e616]: Subscribe to get beauty tips, exclusive offers, and new product alerts directly to your inbox.
+          - generic [ref=e617]:
+            - textbox "Enter your email" [ref=e618]
+            - button "Subscribe" [disabled]
+          - paragraph [ref=e619]: By subscribing, you agree to our Privacy Policy and Terms of Service.
+      - generic [ref=e620]:
+        - generic [ref=e621]:
+          - paragraph [ref=e623]: © 2025 KDerma. All rights reserved.
+          - generic [ref=e624]:
+            - link "Privacy Policy" [ref=e625] [cursor=pointer]:
+              - /url: "#"
+            - link "Terms of Service" [ref=e626] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e627]:
+          - paragraph [ref=e628]: Accepted Payment Methods
+          - generic [ref=e629]:
+            - generic [ref=e630]: VISA
+            - generic [ref=e631]: MASTERCARD
+            - generic [ref=e632]: PAYTM
+            - generic [ref=e633]: UPI
+            - generic [ref=e634]: COD
+```

@@ -1,0 +1,26 @@
+
+D:\KDERMA\kderma-frontend
+├── eslint.config.js
+├── export-structure.js
+├── index.html
+├── node_modules
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── prettier.config.cjs
+├── project_structure.txt
+├── public
+├── README.md
+├── src
+├── tailwind.config.js
+├── TODO.md
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+directory: 3 file: 15
+
+
+
+[2K[1G
