@@ -1,0 +1,1 @@
+- [x] Remove the slide counter div from HeroSection.tsx

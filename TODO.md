@@ -1,0 +1,1 @@
+- [x] Update slide indicators positioning in HeroSection.tsx to move them down (change bottom-8 to bottom-20)
