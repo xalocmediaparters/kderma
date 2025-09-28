@@ -2,6 +2,15 @@ import { useState, useMemo } from 'react';
 import { Search, X, ShoppingCart, Heart, Star, Grid, List } from 'lucide-react';
 import LogoLoop from '../LogoLoop';
 
+import anuaLogo from '../../assets/images/brand section/anua.png';
+import innisfreeLogo from '../../assets/images/brand section/innisfree.png';
+import medicubeLogo from '../../assets/images/brand section/medicube.png';
+import cosrxLogo from '../../assets/images/brand section/cosrx.png';
+import etudeLogo from '../../assets/images/brand section/etude.png';
+import beautyOfJoseonLogo from '../../assets/images/brand section/beauty of joeson.png';
+import tonymolyLogo from '../../assets/images/brand section/tonymoly.png';
+import skin1004Logo from '../../assets/images/brand section/skin1004.png';
+
 const BrandsPage = () => {
   const [selectedBrands, setSelectedBrands] = useState<string[]>([]);
   const [brandSearch, setBrandSearch] = useState('');
@@ -10,14 +19,14 @@ const BrandsPage = () => {
 
   // Brand data with logos
   const brands = [
-    { name: 'anua', logo: '/api/placeholder/120/80', color: '#E8F5E8' },
-    { name: 'innisfree', logo: '/api/placeholder/120/80', color: '#E8F8E8' },
-    { name: 'medicube', logo: '/api/placeholder/120/80', color: '#F0F8FF' },
-    { name: 'cosrx', logo: '/api/placeholder/120/80', color: '#FFF5F5' },
-    { name: 'etude', logo: '/api/placeholder/120/80', color: '#FFF0F8' },
-    { name: 'beauty of joseon', logo: '/api/placeholder/120/80', color: '#F8F5E8' },
-    { name: 'tonymoly', logo: '/api/placeholder/120/80', color: '#F5F8FF' },
-    { name: 'skin1004', logo: '/api/placeholder/120/80', color: '#F8F8F0' }
+    { name: 'anua', logo: anuaLogo, color: '#E8F5E8' },
+    { name: 'innisfree', logo: innisfreeLogo, color: '#E8F8E8' },
+    { name: 'medicube', logo: medicubeLogo, color: '#F0F8FF' },
+    { name: 'cosrx', logo: cosrxLogo, color: '#FFF5F5' },
+    { name: 'etude', logo: etudeLogo, color: '#FFF0F8' },
+    { name: 'beauty of joseon', logo: beautyOfJoseonLogo, color: '#F8F5E8' },
+    { name: 'tonymoly', logo: tonymolyLogo, color: '#F5F8FF' },
+    { name: 'skin1004', logo: skin1004Logo, color: '#F8F8F0' }
   ];
 
   // Mock products data

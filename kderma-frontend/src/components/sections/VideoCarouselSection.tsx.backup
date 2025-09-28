@@ -4,14 +4,6 @@ import { mockProducts } from '../../data/products';
 import ShinyText from '../ui/ShinyText';
 import CircularGallery from '../ui/CircularGallery';
 import LogoLoop from '../LogoLoop';
-import anuaLogo from '../../assets/images/brand section/anua.png';
-import innisfreeLogo from '../../assets/images/brand section/innisfree.png';
-import medicubeLogo from '../../assets/images/brand section/medicube.png';
-import cosrxLogo from '../../assets/images/brand section/cosrx.png';
-import etudeLogo from '../../assets/images/brand section/etude.png';
-import beautyOfJoseonLogo from '../../assets/images/brand section/beauty of joeson.png';
-import tonymolyLogo from '../../assets/images/brand section/tonymoly.png';
-import skin1004Logo from '../../assets/images/brand section/skin1004.png';
 
 interface VideoData {
   id: number;
@@ -625,16 +617,16 @@ export const VideoCarouselSection: React.FC = () => {
           <div style={{ height: '120px', position: 'relative', overflow: 'hidden', marginBottom: '2rem' }}>
             <LogoLoop
               logos={[
-                { name: 'anua', image: anuaLogo, color: '#E8F5E8' },
-                { name: 'innisfree', image: innisfreeLogo, color: '#E8F8E8' },
-                { name: 'medicube', image: medicubeLogo, color: '#F0F8FF' },
-                { name: 'cosrx', image: cosrxLogo, color: '#FFF5F5' },
-                { name: 'etude', image: etudeLogo, color: '#FFF0F8' },
-                { name: 'beauty of joseon', image: beautyOfJoseonLogo, color: '#F8F5E8' },
-                { name: 'tonymoly', image: tonymolyLogo, color: '#F5F8FF' },
-                { name: 'skin1004', image: skin1004Logo, color: '#F8F8F0' }
+                { name: 'anua', logo: '/api/placeholder/120/80', color: '#E8F5E8' },
+                { name: 'innisfree', logo: '/api/placeholder/120/80', color: '#E8F8E8' },
+                { name: 'medicube', logo: '/api/placeholder/120/80', color: '#F0F8FF' },
+                { name: 'cosrx', logo: '/api/placeholder/120/80', color: '#FFF5F5' },
+                { name: 'etude', logo: '/api/placeholder/120/80', color: '#FFF0F8' },
+                { name: 'beauty of joseon', logo: '/api/placeholder/120/80', color: '#F8F5E8' },
+                { name: 'tonymoly', logo: '/api/placeholder/120/80', color: '#F5F8FF' },
+                { name: 'skin1004', logo: '/api/placeholder/120/80', color: '#F8F8F0' }
               ].map(brand => ({
-                src: brand.image,
+                src: brand.logo,
                 alt: brand.name,
                 title: brand.name,
                 href: `#${brand.name}`
